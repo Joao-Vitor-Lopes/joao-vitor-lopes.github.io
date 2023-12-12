@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+body{
+    margin-top: 13rem;
+}
+
+h1{
+    font-size: 6rem;
+    font-weight: 700;
+    color:black;
+}
+
+.max-width{
+    width: 100%;
+    max-width: 125rem;
+    padding: 0.3rem;
+    margin: 0 auto;
+    margin-bottom: 26rem;
+}
+
+
+@media only screen and (max-width: 1024px){
+    html{
+        font-size: 60%;
+    }
+    h1{
+        font-size: 6rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    html{
+        font-size: 58%;
+    }
+
+    .max-width{
+        padding: 0.2rem;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    h1{
+        font-size: 4.2rem;
+    }
+}
