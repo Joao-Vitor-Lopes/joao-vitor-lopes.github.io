@@ -1,0 +1,76 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  position: relative;
+  margin-top: 0;
+  padding: 1.5rem;
+}
+
+.primary-photo {
+  border-radius: 3rem;
+  min-width: 25rem;
+  max-width: 100%;
+  width: 60%;
+  
+}
+
+.introduction {
+ 
+  justify-content: center;
+  align-items: center;
+}
+
+header .photo-left .photo {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+}
+
+header .photo-left .photo .decoration {
+  content: '';
+  display: block;
+  width: 55%;
+  height: 100%;
+  bottom: -30rem;
+  left: 8rem;
+  position: absolute;
+  border-radius: 0.5rem;
+  z-index: -1; 
+}
+
+span{
+    font-size: 6rem;
+}
+
+.typing-text{
+    font-size: 9rem;
+}
+
+.description{
+    font-size: 6rem;
+   
+}
+
+.typing-text{
+    border-right: 0.5rem solid;
+    width: 9ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(9),
+    blinking 0.5s infinite step-end alternate;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+
+@keyframes blinking{
+    50%{
+        border-color: transparent;
+    }
+}

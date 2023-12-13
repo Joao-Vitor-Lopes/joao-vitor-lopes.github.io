@@ -9,7 +9,7 @@
 }
 
 .navbar .nav-content{
-    padding: 1rem 4rem 1rem;
+    padding: 1rem 4rem 2rem;
     display: flex;
     justify-content: space-around;
     margin-bottom: 0;
@@ -27,12 +27,13 @@
     padding: 1rem;
     display: inline-block;
     margin-right: 2rem;
+    font-size: 1.8rem;
 }
 
 
 
 .navbar .nav-content .links li a:hover{
-    color: #a6a6a6;
+    color: #000fb4;
 }
 
 ul{

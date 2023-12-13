@@ -1,14 +1,38 @@
-.btn-about{
-    background-color: #d9d9d9;
+.about-content {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 1.5rem;
+  }
+  
+  .text-about {
+    flex: 1;
+    margin-right: 2rem;
+  }
+  
+  .btn-about {
+    background-color: #030b6d;
     border: none;
     padding: 1rem;
     display: inline-block;
     border-radius: 1rem;
-    color: #000000;
+    color: #ffffff;
     font-weight: 400;
-    font-size: 0.8rem;
-    box-shadow: 1 rgba(0, 0, 0, 1);
-}
-.btn-about:hover{
+    font-size: 1.5rem;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    text-decoration: none;
+  }
+  
+  .btn-about:hover {
     transform: scale(1.1);
-}
+  }
+  
+  .texting-about {
+    font-size: 2.5rem;
+    padding: 2rem 0;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+ 
