@@ -1,0 +1,50 @@
+.division-skills{
+    padding: 1.5rem;
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+}
+
+.division-skills img{
+
+    width: 50%;
+}
+
+
+.division-skills p{
+
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.title-skills{
+
+    text-align: center;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    padding: 1.5rem;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 0px 0px 8px 2px grey;
+    -moz-box-shadow: 0px 0px 8px 2px grey;
+    box-shadow: 0px 0px 8px 2px grey;
+    
+   
+}
+
+.skill p {
+    margin-top: 10px;
+}
+
+.nameskill {
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo mais escura (RGBA com 70% de opacidade) */
+    color: white; /* Cor do texto */
+    padding: 0.5rem; /* Espaçamento interno */
+    width: 100%; /* Ocupa 100% do espaço da div */
+    text-align: center;
+}
