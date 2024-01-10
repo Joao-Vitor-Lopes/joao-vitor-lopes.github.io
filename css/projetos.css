@@ -1,24 +1,34 @@
 .projects{
 
-    display: flex;
+
     justify-content: center;
-    margin: 0;
+   
     padding: 0;
     width: 100%;
+    height: auto;
 }
 
-.projects img{
+.personal-projects{
+    display: inline;
+    justify-content: center;
+}
+.project-image img{
 
-    width: 50%;
+    width: 70%;
 }
 
-.title-projects{
+.right-side img{
 
-    text-align: center;
+    width: 70%;
 }
 
-.primary-projects{
-
+.project-image{
     display: flex;
     flex-direction: row;
 }
+
+.right-side{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
