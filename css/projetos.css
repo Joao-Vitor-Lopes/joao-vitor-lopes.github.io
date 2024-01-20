@@ -1,34 +1,57 @@
 .projects{
 
-
-    justify-content: center;
+    display: flex;
    
-    padding: 0;
+}
+
+.tittle-projects{
+
+    text-align: center;
+}
+.projects-container{
+    gap: 5rem;
+    margin-top: 3%;
+    height: 20%;
     width: 100%;
-    height: auto;
-}
-
-.personal-projects{
-    display: inline;
-    justify-content: center;
-}
-.project-image img{
-
-    width: 70%;
-}
-
-.right-side img{
-
-    width: 70%;
-}
-
-.project-image{
+    overflow: hidden;
+    position: relative;
     display: flex;
     flex-direction: row;
 }
-
-.right-side{
-    display: flex;
-    flex-direction: row-reverse;
+.personal-projects{
+    position: relative;
+    
+}
+.project-info {
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adapte a cor de fundo conforme necessário */
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 0rem 0rem 1rem 1rem;
+    color: #fff; /* Adapte a cor do texto conforme necessário */
 }
 
+.text-project {
+    margin-bottom: 10px;
+}
+
+.btn-container {
+    display: flex;
+    gap: 3rem;
+}
+
+
+
+.image-project img{
+    display: flex;
+    max-width: 100%;
+    border-radius: 1rem 1rem 0rem 0rem;
+   
+    
+}
+
+.institucional-projects{
+
+    display: flex;
+}
