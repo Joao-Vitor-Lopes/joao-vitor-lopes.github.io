@@ -1,57 +1,59 @@
 .projects{
 
-    display: flex;
-   
-}
-
-.tittle-projects{
-
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    background-color: antiquewhite;
 }
-.projects-container{
-    gap: 5rem;
-    margin-top: 3%;
-    height: 20%;
-    width: 100%;
+.projects-content{
+    background-color: #ffffff;
+
+}
+.body-projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.slider{
+    
+    margin: 0 auto;
+    width: 100rem;
+    height: 50rem;
     overflow: hidden;
-    position: relative;
-    display: flex;
-    flex-direction: row;
+    border: solid 3px black;
 }
-.personal-projects{
-    position: relative;
+
+.slides{
+
+    width: 300%;
+    height: 50rem;
+    display: flex;
     
 }
-.project-info {
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Adapte a cor de fundo conforme necessário */
+
+.slides input{
+    display: none;
+}
+
+.slide{
     width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    border-radius: 0rem 0rem 1rem 1rem;
-    color: #fff; /* Adapte a cor do texto conforme necessário */
-}
-
-.text-project {
-    margin-bottom: 10px;
-}
-
-.btn-container {
-    display: flex;
-    gap: 3rem;
-}
-
-
-
-.image-project img{
-    display: flex;
-    max-width: 100%;
-    border-radius: 1rem 1rem 0rem 0rem;
-   
+    position: relative;
     
 }
 
-.institucional-projects{
+.slide img{
+    width: 100rem;
 
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 100rem;
+    margin-top: -4;
     display: flex;
+    justify-content: center;
 }
