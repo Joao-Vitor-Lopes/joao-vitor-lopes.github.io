@@ -22,7 +22,7 @@
     margin: 0 auto;
     width: 100rem;
     height: 50rem;
-    overflow: hidden;
+    
     border: solid 3px black;
 }
 
@@ -41,7 +41,7 @@
 .slide{
     width: 100%;
     position: relative;
-    transition: 1s;
+    transition: transform 1s;
 }
 
 .slide img{
@@ -73,17 +73,21 @@
     background-color: #030B6D;
 }
 
-#radio1:checked ~ .first{
-    margin-left: 0;
+
+#radio1:checked ~ .slide {
+    transform: translateX(0);
 }
 
-#radio2:checked ~ .first{
-    margin-left: -66.6%;
+
+#radio2:checked ~ .slide {
+    transform: translateX(-100%);
 }
 
-#radio3:checked ~ .first{
-    margin-left: -233.33%;
+
+#radio3:checked ~ .slide {
+    transform: translateX(-200%);
 }
+
 
 .navigation-auto div{
     border: 2px solid #ffffff;
@@ -119,17 +123,18 @@
 
 /* INSTITUCIONAIS */
 
-#radio1-custom:checked ~ .first {
-    margin-left: 0;
+#radio1-custom:checked ~ .slide {
+    transform: translateX(0);
 }
 
-#radio2-custom:checked ~ .first {
-    margin-left: -66.6%;
+#radio2-custom:checked ~ .slide {
+    transform: translateX(-100%);
 }
 
-#radio3-custom:checked ~ .first {
-    margin-left: -233.33%;
+#radio3-custom:checked ~ .slide {
+    transform: translateX(-200%);
 }
+
 
 #radio1-custom:checked ~ .navigation-auto .auto-btn1-custom {
     background-color: #030B6D;
@@ -141,4 +146,32 @@
 
 #radio3-custom:checked ~ .navigation-auto .auto-btn3-custom {
     background-color: #030B6D;
+}
+
+/* Descrição dos projetos */
+
+.project-info {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.text-project {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btn-container a {
+    margin: 0.5rem;
+
 }

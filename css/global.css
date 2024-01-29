@@ -38,6 +38,23 @@ h2 {
     margin-bottom: 26rem;
 }
 
+.custom-btn {
+    background-color: #030b6d;
+    border: none;
+    padding: 1rem 3rem;
+    display: inline-block;
+    border-radius: 1rem;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.5rem;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    text-decoration: none;
+    max-width: 12rem;
+  }
+  
+  .custom-btn:hover {
+    transform: scale(1.1);
+  }
 
 @media only screen and (max-width: 1024px){
     html{
