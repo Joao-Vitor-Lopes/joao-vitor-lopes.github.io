@@ -17,6 +17,7 @@ function nextImage(){
     document.getElementById("radio"+count).checked = true;
 }
 
+/* Institucionais */
 (function() {
     let count = 1;
     document.getElementById("radio1-custom").checked = true;
