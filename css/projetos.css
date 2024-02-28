@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
 }
 .projects-content{
     background-color: #ffffff;
@@ -22,7 +22,7 @@
     margin: 0 auto;
     width: 100rem;
     height: 50rem;
-    
+    overflow: hidden;
     border: solid 3px black;
 }
 
@@ -153,16 +153,18 @@
 .project-info {
     position: absolute;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
-    padding: 10px;
+    padding: 30px;
     box-sizing: border-box;
     color: #fff;
+
 }
 
 .text-project {
     margin-bottom: 10px;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .btn-container {
