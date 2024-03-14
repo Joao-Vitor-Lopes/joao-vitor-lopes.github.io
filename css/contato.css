@@ -1,0 +1,30 @@
+footer{
+    background-color: rgb(66, 66, 66);
+}
+
+.footer-content{
+
+    text-align: center;
+    padding: 6rem 2rem 1rem;
+    max-width: 47rem;
+}
+
+footer .footer-content ul li{
+
+    display: inline-block;
+
+}
+
+footer .footer-content ul a{
+
+    display: inline-block;
+    padding: 1rem;
+}
+
+footer .footer-content .footer-copyright{
+
+   font-size: 1.4rem;
+}
+
+
+

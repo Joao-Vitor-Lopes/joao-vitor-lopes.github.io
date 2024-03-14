@@ -1,4 +1,4 @@
-/* Pessoais */
+/* Pessoais 
 
 let count = 1;
 document.getElementById("radio1").checked = true;
@@ -16,7 +16,7 @@ function nextImage(){
 
     document.getElementById("radio"+count).checked = true;
 }
-
+*/
 /* Institucionais */
 (function() {
     let count = 1;
@@ -24,7 +24,7 @@ function nextImage(){
 
     setInterval(function() {
         nextImage();
-    }, 3500);
+    }, 10000);
 
     function nextImage() {
         count++;

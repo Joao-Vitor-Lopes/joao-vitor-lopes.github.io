@@ -6,15 +6,17 @@
     text-align: center;
     background-color: whitesmoke;
 }
-.projects-content{
-    background-color: #ffffff;
-
+.projects-content p{
+    
+    font-size: 2rem;
+    padding: 2rem 0;
+    text-decoration: bold;
 }
 .body-projects{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin-bottom: 6rem;
 }
 
 .slider{
@@ -74,19 +76,7 @@
 }
 
 
-#radio1:checked ~ .slide {
-    transform: translateX(0);
-}
 
-
-#radio2:checked ~ .slide {
-    transform: translateX(-100%);
-}
-
-
-#radio3:checked ~ .slide {
-    transform: translateX(-200%);
-}
 
 
 .navigation-auto div{
@@ -108,6 +98,21 @@
 .navigation-auto div:not(:last-child){
     margin-right: 2rem;
 }
+/* CASO EU ADICIONE ALGO NOS PROJETOS PESSOAIS
+
+#radio1:checked ~ .slide {
+    transform: translateX(0);
+}
+
+
+#radio2:checked ~ .slide {
+    transform: translateX(-100%);
+}
+
+
+#radio3:checked ~ .slide {
+    transform: translateX(-200%);
+}
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
     background-color: #030B6D;
@@ -120,6 +125,7 @@
 #radio3:checked ~ .navigation-auto .auto-btn3{
     background-color: #030B6D;
 }
+*/
 
 /* INSTITUCIONAIS */
 
@@ -157,14 +163,18 @@
     width: 100%;
     padding: 30px;
     box-sizing: border-box;
-    color: #fff;
+    color: #ffffff;
+    text-decoration: bold;
+    
 
 }
 
 .text-project {
     margin-bottom: 10px;
+    line-height: 2.1rem;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+ 
 }
 
 .btn-container {
