@@ -1,11 +1,12 @@
-.projects{
+.project{
 
     width: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: whitesmoke;
+    
 }
+
 .projects-content p{
     
     font-size: 2rem;
