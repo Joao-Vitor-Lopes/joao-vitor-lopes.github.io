@@ -4,7 +4,7 @@
     left: 0;
     position: fixed;
     z-index: 10;
-    background-color: #ffffff;
+    background-color: var(--background-secundary);
 }
 
 .navbar .nav-content {
@@ -28,14 +28,14 @@
     margin-right: 2rem;
     font-size: 1.8rem;
     position: relative;
-    color: #000000;
+    color: var(--text-color);
     text-decoration: none;
     transition: color 0.3s ease-in-out;
 }
 
 .navbar .nav-content .links li a.active,
 .navbar .nav-content .links li a:hover {
-    color: #030B6D;
+    color: #520303;
     cursor: pointer;
     font-weight: bold;
 }
@@ -44,7 +44,7 @@
     content: "";
     width: 0%;
     height: 0.4rem;
-    background-color: #030B6D;
+    background-color: #520303;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -61,7 +61,7 @@ ul {
 }
 
 ul li a {
-    color: #000000;
+    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -73,3 +73,52 @@ ul li a {
     margin: 0;
     padding: 0;
 }
+
+#switch{
+
+    position: relative;
+    width: 64px;
+    top: 2%;
+   
+}
+
+#switch button{
+
+    width: 32px;
+    height: 32px;
+    background: white var(--switch-bg-url) no-repeat center;
+    border: 0;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+    
+   
+   
+}
+
+#switch span{
+    display: block;
+    width: 64px;
+    height: 24px;
+    background: var(--surface-color);
+    border: 1px solid var(--text-color);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 9999px;
+
+}
+
+.darkmode #switch button{
+
+    right: 0;
+    left: initial;
+}
+
+#switch button:hover{
+
+    cursor: pointer;
+}
+

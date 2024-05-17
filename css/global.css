@@ -1,3 +1,25 @@
+:root{
+   
+    --background-primary: rgb(238, 238, 238);
+    --background-secundary: #e6e5e5;
+    --tittle-color:#520303;
+    --text-color:black;
+    --switch-bg-url: url(/fotos/moon.svg);
+    --surface-color: rgba(0, 0, 0, 0.05);
+    
+    
+}
+
+.darkmode{
+    
+    --background-primary: #1A1A1A;
+    --background-secundary: #202020;
+    --tittle-color: #520303;
+    --text-color: #F5F5F5;
+    --switch-bg-url: url(/fotos/sun.svg);
+    --surface-color: rgba(0, 0, 0, 0.05);
+}
+
 
 
 *{
@@ -14,6 +36,7 @@ html{
 
 body{
     margin-top: 13rem;
+    background-color: var(--background-primary);
 }
 .hidden {
     opacity: 0;
@@ -21,19 +44,19 @@ body{
 h1{
     font-size: 13rem;
     font-weight: 700;
-    color:black;
+    color:var(--text-color);
     
 }
 
 h2 {
     font-size: 5.5rem;
-    color: #030b6d;
+    color: var(--tittle-color);
     margin-bottom: 1rem;
   }
 
   h3{
     font-size: 3.5rem;
-    color: #030b6d;
+    color: var(--tittle-color);
     margin-bottom: 1rem;
     font-weight: 600;
   }
@@ -47,7 +70,7 @@ h2 {
 }
 
 .custom-btn {
-    background-color: #030b6d;
+    background-color: var(--tittle-color);
     border: none;
     padding: 1rem 3rem;
     display: inline-block;
@@ -64,7 +87,9 @@ h2 {
     transform: scale(1.1);
   }
 
-
+p{
+    color: var(--text-color);
+}
 
 
 @media only screen and (max-width: 1024px){

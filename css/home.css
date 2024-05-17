@@ -23,6 +23,11 @@
   align-items: center;
 }
 
+.introduction span{
+
+  color: var(--text-color);
+}
+
 .developer header .photo-left .photo {
   position: relative;
   justify-content: center;

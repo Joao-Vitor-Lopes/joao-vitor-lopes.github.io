@@ -1,5 +1,5 @@
 footer{
-    background-color:  rgb(238, 238, 238);
+    background-color:  var(--background-secundary);
     display: flex;
     text-align: center;
     justify-content: center;

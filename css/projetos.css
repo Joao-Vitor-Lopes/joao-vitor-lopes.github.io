@@ -26,7 +26,7 @@
     width: 100rem;
     height: 50rem;
     overflow: hidden;
-    border: solid 3px black;
+    border: solid 3px var(--tittle-color);
 }
 
 .slides{
@@ -61,7 +61,7 @@
 }
 
 .manual-btn{
-    border: 2px solid #030B6D;
+    border: 1px solid #ffffff;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -73,7 +73,7 @@
 }
 
 .manual-btn:hover{
-    background-color: #030B6D;
+    background-color:#520303;
 }
 
 
@@ -81,7 +81,7 @@
 
 
 .navigation-auto div{
-    border: 2px solid #ffffff;
+    border: 1px solid #ffffff;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -116,15 +116,15 @@
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
-    background-color: #030B6D;
+    background-color:#520303;
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2{
-    background-color: #030B6D;
+    background-color:#520303;
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3{
-    background-color: #030B6D;
+    background-color:#520303;
 }
 */
 
@@ -144,15 +144,15 @@
 
 
 #radio1-custom:checked ~ .navigation-auto .auto-btn1-custom {
-    background-color: #030B6D;
+    background-color:#520303;
 }
 
 #radio2-custom:checked ~ .navigation-auto .auto-btn2-custom {
-    background-color: #030B6D;
+    background-color:#520303;
 }
 
 #radio3-custom:checked ~ .navigation-auto .auto-btn3-custom {
-    background-color: #030B6D;
+    background-color:#520303;
 }
 
 /* Descrição dos projetos */
@@ -175,6 +175,7 @@
     line-height: 2.1rem;
     text-align: center;
     font-size: 1.6rem;
+    color: #F5F5F5;
  
 }
 

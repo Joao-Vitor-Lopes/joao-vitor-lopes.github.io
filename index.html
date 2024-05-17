@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>João Vitor Lopes</title>
  
-    <link rel="preconnect" href="https://fonts.google.com/specimen/Roboto">
+    
 
     <link rel="stylesheet" href="css/export.css">
-<!-- cor do site #030B6D-->
+<!-- cor do site #520303-->
 </head>
 <body>
 
@@ -16,7 +16,7 @@
         <div class="nav-content max-width">
 
             <a href="/">
-                <img src="/fotos/logotipo.svg" alt="João Vitor Lopes">
+                <img id="logojs" src="fotos/logotipo.svg" class="img-logotipo" alt="João Vitor Lopes">
             </a>
             <ul class="links">
                 <li><a href="#header">Home</a></li>
@@ -24,8 +24,16 @@
                 <li><a href="#skills">Habilidades</a></li>
                 <li><a href="#projects">Projetos</a></li>
                 <li><a href="#contact">Contato</a></li>
+                
+                    <div id="switch" onclick="toggleMode()"> 
+                        <button></button>
+                        <span></span>
+                    </div>
+                
+           
+            </div>
             </ul>
-            <i class="fa-regular fa-sun"></i>
+        
         </div>
     </nav>
 
@@ -33,7 +41,7 @@
         <header class="max-width">
             <div class="photo-left">
                     <div class="photo">
-                        <img src="fotos/fotodesign.svg" alt="João Vitor" class="primary-photo">
+                        <img id="imgprimary" src="fotos/fotodesign.svg" alt="João Vitor" class="primary-photo">
                         <img src="fotos/decoration.svg" alt="decoration" class="decoration">
                     </div>
             </div>
@@ -58,7 +66,7 @@
         <a href="#contact" class="custom-btn">Fale Comigo &rarr;</a>
     </div>
     <div class="image-about">
-        <img src="fotos/question.svg" alt="sobre-mim">
+        <img src="fotos/question.svg" alt="sobre-mim" class="img-question">
     </div>
 
     </section>
@@ -188,7 +196,7 @@
 
         <div class="footer-content max-width">
             <div class="contact-footer">
-                <img class="footer-logo" src="fotos/logotipo.svg">
+                <img id="logojs" class="footer-logo" src="fotos/logotipo.svg">
                 <h3 class="title-footer mb-s"> Fale Comigo</h3>
                 <p class="text-footer mb-m">
                     Ficarei feliz em explorar seus projetos e colaborar para transformá-los em realidade.
@@ -209,5 +217,6 @@
    
     <script src="js/activeLinks.js"></script>
     <script src="js/projects.js"></script>
+    <script src="js/darkMode.js"></script>
 </body>
 </html>
