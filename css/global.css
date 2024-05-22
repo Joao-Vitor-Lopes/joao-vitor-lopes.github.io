@@ -5,7 +5,7 @@
     --tittle-color:#520303;
     --text-color:black;
     --switch-bg-url: url(/fotos/moon.svg);
-    --surface-color: rgba(0, 0, 0, 0.05);
+    --surface-color: rgba(0, 0, 0, 0.1);
     
     
 }
@@ -17,7 +17,7 @@
     --tittle-color: #520303;
     --text-color: #F5F5F5;
     --switch-bg-url: url(/fotos/sun.svg);
-    --surface-color: rgba(0, 0, 0, 0.05);
+    --surface-color: rgba(255, 255, 255, 0.1);
 }
 
 
@@ -91,6 +91,11 @@ p{
     color: var(--text-color);
 }
 
+section{
+
+    min-height: 100vh;
+}
+
 
 @media only screen and (max-width: 1024px){
     html{
@@ -103,16 +108,28 @@ p{
 
 @media only screen and (max-width: 768px){
     html{
-        font-size: 58%;
+        font-size: 50%;
+    
     }
 
     .max-width{
         padding: 0.2rem;
     }
+
+  
 }
 
 @media only screen and (max-width: 425px){
+    html{
+        font-size: 40%;
+    
+    }
     h1{
-        font-size: 4.2rem;
+        font-size: 4rem;
+    }
+
+    h2{
+
+        font-size: 3.5rem;
     }
 }

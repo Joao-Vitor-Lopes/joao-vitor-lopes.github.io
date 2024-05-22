@@ -171,6 +171,7 @@
 }
 
 .text-project {
+    width: 100%;
     margin-bottom: 10px;
     line-height: 2.1rem;
     text-align: center;
@@ -188,4 +189,48 @@
 .btn-container a {
     margin: 0.5rem;
 
+}
+
+@media only screen and (max-width: 768px){
+
+    .slider{
+       
+        margin: auto;
+        width: 80%;
+        height: 100%;
+    }
+
+    .slide{
+        width: 100%;
+        position: relative;
+        transition: transform 1s;
+    }
+    
+    .slide img{
+        width: 100%;
+    
+    }
+
+
+    
+    .navigation-auto{
+
+        width: 85%;
+
+    }
+    
+    .manual-navigation{
+
+        width: 85%;
+    }
+    
+}
+
+@media only screen and (max-width: 428px){
+
+    .text-project {
+        
+        line-height: 2.5rem;
+      
+    }
 }

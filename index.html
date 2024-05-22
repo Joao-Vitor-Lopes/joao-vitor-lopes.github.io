@@ -15,25 +15,44 @@
     <nav class="navbar">
         <div class="nav-content max-width">
 
-            <a href="/">
+            <a href="#">
                 <img id="logojs" src="fotos/logotipo.svg" class="img-logotipo" alt="João Vitor Lopes">
             </a>
             <ul class="links">
-                <li><a href="#header">Home</a></li>
+                <li><a href="#header" class="active">Home</a></li>
                 <li><a href="#about">Sobre</a></li>
                 <li><a href="#skills">Habilidades</a></li>
                 <li><a href="#projects">Projetos</a></li>
                 <li><a href="#contact">Contato</a></li>
-                
+                <li>
                     <div id="switch" onclick="toggleMode()"> 
                         <button></button>
                         <span></span>
                     </div>
-                
-           
-            </div>
-            </ul>
+                </li>
+                  
+
+                </ul>
+                 <div class="navbar-mobile">
+                    
+                    <img src="fotos/menu.svg" class="menu-bar">
+                    <ul class="mobile-links">
+                        <li>
+                            <div id="switch" onclick="toggleMode()"> 
+                                <button></button>
+                                <span></span>
+                            </div>
+                        </li>
+                        <li><a href="#header" class="active">Home</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#skills">Habilidades</a></li>
+                        <li><a href="#projects">Projetos</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                        
+                            
         
+                        </ul>
+                 </div>
         </div>
     </nav>
 
@@ -61,7 +80,7 @@
         <div class="text-about">
             
         <h2 class="title-about">Desenvolvedor front-end em busca da sua primeira oportunidade</h2>
-        <p class="texting-about">Olá! Sou João Vitor da Silva Lopes, tenho 18 anos e estou em busca da minha primeira oportunidade como programador front-end. Dediquei um ano e meio ao estudo em uma instituição de curso técnico e também investi tempo em aprendizado autodidata em casa. Estou entusiasmado para aplicar meus conhecimentos e paixão pelo desenvolvimento web em projetos desafiadores. Mal posso esperar para contribuir e crescer no mundo da programação front-end!
+        <p class="texting-about">Olá! Sou João Vitor da Silva Lopes, tenho 19 anos e estou em busca da minha primeira oportunidade como programador front-end. Dediquei um ano e meio ao estudo em uma instituição de curso técnico e também investi tempo em aprendizado autodidata em casa. Estou entusiasmado para aplicar meus conhecimentos e paixão pelo desenvolvimento web em projetos desafiadores. Mal posso esperar para contribuir e crescer no mundo da programação front-end!
         </p>
         <a href="#contact" class="custom-btn">Fale Comigo &rarr;</a>
     </div>
@@ -72,7 +91,7 @@
     </section>
 
 
-    <section id="skills" class="skills max-width">
+    <section id="skills" class="skills-content max-width">
         <h2 class="title-skills">Habilidades</h2>
             <div class="division-skills">
                 
@@ -146,10 +165,10 @@
             <div class="slide first">
                 <img src="fotos/macario.svg" alt="projeto">
                     <div class="project-info">
-                        <p class="text-project">Em um desafio empolgante em uma instituição, liderei um projeto para criar um site impactante para uma empresa local. Com foco na identidade da empresa, desenvolvi uma estrutura intuitiva e design envolvente, garantindo uma experiência do usuário excelente. A segurança foi priorizada, e o resultado foi um site responsivo que elevou a presença digital da empresa, conquistando tanto clientes existentes quanto novos visitantes. Este projeto destacou a importância da colaboração e habilidades técnicas na transformação digital empresarial.</p>
+                        <p class="text-project">Em um desafio empolgante em uma instituição, liderei um projeto para criar um site impactante para uma empresa local. Com foco na identidade da empresa, desenvolvi uma estrutura intuitiva e design envolvente, garantindo uma experiência do usuário excelente. E o resultado foi um site que elevou a presença digital da empresa. (como a empresa não iria utilizar o site o projeto não está funcional assim como o "Contatos")</p>
                         <div class="btn-container">
-                            <a href="" class="custom-btn project-btn">Código</a>
-                            <a href="" class="custom-btn project-btn">Site</a>
+                            <a href="https://github.com/Joao-Vitor-Lopes/macario" class="custom-btn project-btn" target="_blank">Código</a>
+                            <a href="https://joao-vitor-lopes.github.io/macario/" class="custom-btn project-btn" target="_blank">Site</a>
                         </div>
                     </div>
             </div>
@@ -158,8 +177,8 @@
                 <div class="project-info">
                     <p class="text-project">Em um projeto institucional, desenvolvi um sistema para apresentação de TCC sobre Inteligência Artificial. O destaque foi a implementação de um desafio no Jogo da Velha, onde os participantes podiam desafiar a IA. Essa abordagem proporcionou uma experiência prática e envolvente, demonstrando as aplicações da IA de maneira acessível e interativa. O projeto ilustra a integração bem-sucedida entre tecnologia e educação.</p>
                     <div class="btn-container">
-                        <a href="" class="custom-btn project-btn">Código</a>
-                        <a href="" class="custom-btn project-btn">Site</a>
+                        <a href="https://github.com/Joao-Vitor-Lopes/sitetcc" class="custom-btn project-btn" target="_blank">Código</a>
+                        <a href="https://joao-vitor-lopes.github.io/sitetcc/" class="custom-btn project-btn" target="_blank">Site</a>
                     </div>
                 </div>
             </div>
@@ -168,8 +187,8 @@
                 <div class="project-info">
                     <p class="text-project">Em um projeto institucional, criei um site dedicado aos sapos, utilizando uma certa ferramenta de pesquisa de pesquisa. O objetivo era proporcionar uma experiência informativa e envolvente, permitindo aos usuários explorar diversas facetas desses anfíbios. O site apresentou uma interface atrativa, integrando informações detalhadas sobre espécies, habitats e curiosidades. Transformando o site em uma valiosa fonte educacional e promovendo a conscientização sobre sapos.</p>
                     <div class="btn-container">
-                        <a href="" class="custom-btn project-btn">Código</a>
-                        <a href="" class="custom-btn project-btn">Site</a>
+                        <a href="https://github.com/Joao-Vitor-Lopes/sapoutopia" class="custom-btn project-btn" target="_blank">Código</a>
+                        <a href="https://joao-vitor-lopes.github.io/sapoutopia/" class="custom-btn project-btn" target="_blank">Site</a>
                     </div>
                 </div>
             </div>
@@ -201,7 +220,7 @@
                 <p class="text-footer mb-m">
                     Ficarei feliz em explorar seus projetos e colaborar para transformá-los em realidade.
                 </p>
-                <img src="fotos/github.svg">
+                <a href="https://github.com/Joao-Vitor-Lopes" target="_blank"><img src="fotos/github.svg"></a>
                 <img src="fotos/linkedin.svg">
             <p class="footer-copyright">&copy; João Vitor Lopes 2024</p>
             </div>
@@ -218,5 +237,6 @@
     <script src="js/activeLinks.js"></script>
     <script src="js/projects.js"></script>
     <script src="js/darkMode.js"></script>
+    <script src="js/navbar.js"></script>
 </body>
 </html>

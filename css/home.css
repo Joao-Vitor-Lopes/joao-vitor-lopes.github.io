@@ -40,8 +40,8 @@
   display: block;
   width: 55%;
   height: 100%;
-  bottom: -30rem;
-  left: 8rem;
+  bottom: -35%;
+  left: 5%;
   position: absolute;
   border-radius: 0.5rem;
   z-index: -1; 
@@ -82,3 +82,45 @@ span{
     }
 }
 
+@media only screen and (max-width: 768px){
+
+  header{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  
+  }
+  .introduction{
+    margin: 2rem auto 4rem;
+  }
+
+  span{
+    font-size: 4rem;
+}
+
+
+
+.description{
+    font-size: 4rem;
+    
+   
+}
+ 
+
+  .developer header .photo-left .photo .decoration {
+    left: 22%;
+  
+  }
+
+  .typing-text{
+    border-right: 0;
+    font-size: 5rem;
+    white-space: nowrap;
+    overflow: visible;
+    animation: none;
+    margin: auto;
+   
+}
+
+}
