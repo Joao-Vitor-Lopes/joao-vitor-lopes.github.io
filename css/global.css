@@ -12,8 +12,8 @@
 
 .darkmode{
     
-    --background-primary: #1A1A1A;
-    --background-secundary: #202020;
+    --background-primary: #202020;
+    --background-secundary: #1f1f1f;
     --tittle-color: #520303;
     --text-color: #F5F5F5;
     --switch-bg-url: url(/fotos/sun.svg);
