@@ -43,7 +43,7 @@
 
 .navbar .nav-content .links li a.active,
 .navbar .nav-content .links li a:hover {
-    color: #520303;
+    color: #3D6BD7;
     cursor: pointer;
     font-weight: bold;
 }
@@ -52,7 +52,7 @@
     content: "";
     width: 0%;
     height: 0.4rem;
-    background-color: #520303;
+    background-color: #3D6BD7;
     position: absolute;
     bottom: 0;
     left: 0;

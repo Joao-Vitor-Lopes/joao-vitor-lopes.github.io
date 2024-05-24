@@ -73,7 +73,7 @@
 }
 
 .manual-btn:hover{
-    background-color:#520303;
+    background-color:#3D6BD7;
 }
 
 
@@ -144,15 +144,15 @@
 
 
 #radio1-custom:checked ~ .navigation-auto .auto-btn1-custom {
-    background-color:#520303;
+    background-color:#3D6BD7;
 }
 
 #radio2-custom:checked ~ .navigation-auto .auto-btn2-custom {
-    background-color:#520303;
+    background-color:#3D6BD7;
 }
 
 #radio3-custom:checked ~ .navigation-auto .auto-btn3-custom {
-    background-color:#520303;
+    background-color:#3D6BD7;
 }
 
 /* Descrição dos projetos */
