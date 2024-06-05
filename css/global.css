@@ -89,6 +89,7 @@ h2 {
 
 p{
     color: var(--text-color);
+    margin: 0 1.5rem;
 }
 
 section{
@@ -117,9 +118,7 @@ section{
         padding: 1rem;
     }
      
-    p{
-        margin: 0 1.5rem;
-    }
+    
   
 }
 
