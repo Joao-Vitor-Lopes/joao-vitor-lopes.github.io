@@ -116,6 +116,7 @@ section{
 
     .max-width{
         padding: 1rem;
+        max-width: 90%;
     }
      
     

@@ -192,7 +192,7 @@
 
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 868px){
 
     .slider{
        
@@ -216,25 +216,47 @@
     
     .navigation-auto{
 
-        width: 85%;
+        width: 80%;
 
     }
     
     .manual-navigation{
 
-        width: 85%;
+        width: 80%;
     }
     .projects-content p{
 
         text-align: start;
     }
-}
 
-@media only screen and (max-width: 428px){
+    .slider{
+
+        min-height: 320px;
+    }
 
     .text-project {
         
         line-height: 2.5rem;
-      
+        
     }
+
+    .project-info{
+        
+        height: 100%;
+        min-height: 320px;
+        top: 0;
+
+    }
+
+    .btn-container {
+      
+      
+        position: absolute;
+        bottom: 10%;
+        width: 80%;
+    
+    }
+
+  
 }
+

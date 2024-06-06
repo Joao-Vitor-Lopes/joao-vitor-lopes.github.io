@@ -97,7 +97,7 @@
     box-shadow: 0px 0px 8px 2px #F03C2E;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 868px){
 
     .division-skills{
         flex-direction: column;
