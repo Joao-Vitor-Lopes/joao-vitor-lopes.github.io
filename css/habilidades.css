@@ -43,7 +43,7 @@
     margin-bottom: 10px;
     line-height: 2rem;
     font-size: 1.3rem;
-    text-align: start;
+    text-align: justify;
 }
 
 .nameskill {
@@ -111,6 +111,6 @@
         
         font-size: 1.8rem;
         line-height: 3rem;
-        text-align: start;
+        text-align: justify;
     }
 }

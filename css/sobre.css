@@ -21,6 +21,8 @@
     padding: 2rem 0;
     align-items: center;
     margin-bottom: 1rem;
+    text-align: justify;
+    
   }
   
   @media only screen and (max-width: 868px){

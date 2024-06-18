@@ -8,8 +8,10 @@ footer{
 .footer-content{
     display: flex;
     text-align: center;
-    padding: 6rem 2rem 1rem;
-    max-width: 47rem;
+    max-width: 40rem;
+    padding: 6rem 2rem 0;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 footer .footer-content ul li{
@@ -40,3 +42,18 @@ footer .footer-content .footer-copyright{
     font-size: 1.5rem;
 }
 
+#contact {
+    
+    background-color: var(--background-secundary);
+    box-sizing: border-box;
+    
+}
+
+@media only screen and (max-width: 1024px){
+
+    #contact{
+
+        min-height: 50vh;
+    }
+
+}
