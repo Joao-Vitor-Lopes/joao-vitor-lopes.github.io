@@ -35,3 +35,4 @@ function nextImage(){
         document.getElementById("radio" + count + "-custom").checked = true;
     }
 })();
+

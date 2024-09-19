@@ -99,6 +99,11 @@
 
 @media only screen and (max-width: 1024px){
 
+    #skills{
+
+        margin-bottom: 10rem;
+    }
+
     .division-skills{
         flex-direction: column;
     }
