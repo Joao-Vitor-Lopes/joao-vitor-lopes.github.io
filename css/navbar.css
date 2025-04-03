@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     position: fixed;
-    z-index: 10;
+    z-index: 30;
     background-color: var(--background-secundary);
 }
 
@@ -104,7 +104,7 @@ ul li a {
     position: absolute;
     top: 50%;
     left: 0;
-    z-index: 1;
+    z-index: 2;
     transform: translateY(-50%);
     
    
@@ -173,7 +173,7 @@ ul li a {
         left: 0;
         padding: 1rem 0;
         box-shadow: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.1);
-        z-index: 1;
+        z-index: 2;
     }
 
     .navbar .nav-content .navbar-mobile.active .mobile-links li{

@@ -1,38 +1,13 @@
-/* Pessoais 
+const cardsContainer = document.querySelector(".container-cards");
 
-let count = 1;
-document.getElementById("radio1").checked = true;
+cardsContainer.addEventListener("click", (e) => {
+  const target = e.target.closest(".card");
 
-setInterval(function(){
-    nextImage()
-}, 3500);
+  if (!target) return;
 
-function nextImage(){
-    count++;
-    if(count>3){
-        count = 1;
-    }
+  cardsContainer.querySelectorAll(".card").forEach((card) => {
+    card.classList.remove("active");
+  });
 
-
-    document.getElementById("radio"+count).checked = true;
-}
-*/
-/* Institucionais */
-(function() {
-    let count = 1;
-    document.getElementById("radio1-custom").checked = true;
-
-    setInterval(function() {
-        nextImage();
-    }, 10000);
-
-    function nextImage() {
-        count++;
-        if (count > 3) {
-            count = 1;
-        }
-
-        document.getElementById("radio" + count + "-custom").checked = true;
-    }
-})();
-
+  target.classList.add("active");
+});
