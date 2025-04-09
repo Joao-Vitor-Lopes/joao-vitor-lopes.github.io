@@ -4,7 +4,7 @@
     --background-secundary: #e6e5e5;
     --tittle-color:#3D6BD7;
     --text-color:black;
-    --switch-bg-url: url(/fotos/moon.svg);
+    --switch-bg-url: url(/fotos/sun.svg);
     --surface-color: rgba(0, 0, 0, 0.1);
     
     
@@ -16,7 +16,7 @@
     --background-secundary: #1d1d1d;
     --tittle-color: #3D6BD7;
     --text-color: #F5F5F5;
-    --switch-bg-url: url(/fotos/sun.svg);
+    --switch-bg-url: url(/fotos/moon.svg);
     --surface-color: rgba(255, 255, 255, 0.1);
 }
 
