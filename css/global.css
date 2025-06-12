@@ -2,7 +2,7 @@
    
     --background-primary: rgb(238, 238, 238);
     --background-secundary: #e6e5e5;
-    --tittle-color:#3D6BD7;
+    --primary-color:#3D6BD7;
     --text-color:black;
     --switch-bg-url: url(/fotos/sun.svg);
     --surface-color: rgba(0, 0, 0, 0.1);
@@ -14,7 +14,7 @@
     
     --background-primary: #1e1e1e;
     --background-secundary: #1d1d1d;
-    --tittle-color: #3D6BD7;
+    --primary-color: #3D6BD7;
     --text-color: #F5F5F5;
     --switch-bg-url: url(/fotos/moon.svg);
     --surface-color: rgba(255, 255, 255, 0.1);
@@ -53,13 +53,13 @@ h1{
 
 h2 {
     font-size: 5.5rem;
-    color: var(--tittle-color);
+    color: var(--primary-color);
     margin-bottom: 1rem;
   }
 
   h3{
     font-size: 3.5rem;
-    color: var(--tittle-color);
+    color: var(--primary-color);
     margin-bottom: 1rem;
     font-weight: 600;
   }
@@ -73,7 +73,7 @@ h2 {
 }
 
 .custom-btn {
-    background-color: var(--tittle-color);
+    background-color: var(--primary-color);
     border: none;
     padding: 2rem 4rem;
     display: flex;
